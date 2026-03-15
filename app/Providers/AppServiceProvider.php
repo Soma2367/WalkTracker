@@ -22,6 +22,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Blade::component('admin.layouts.app', 'admin-layout');
         Blade::component('admin.layouts.app', 'admin-layouts-app');
+        Blade::component('admin.layouts.guest', 'admin-layouts-guest');
         Blade::component('user.layouts.app', 'app-layout');
         Blade::component('user.layouts.guest', 'guest-layout');
 
